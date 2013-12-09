@@ -8,41 +8,45 @@ permalink: app
 
 *Created by Vesa Vänskä, [@vesan](https://twitter.com/vesan)*
 
-**Make sure you have Rails installed.** [**Follow the installation guide**](/install) to get set up.
+**Stelle sicher, dass du Rails installiert hast.** [**Folge der Installationsanleitung falls du Rails noch nicht installiert hast**](/install).
 
 
-## Get to know the tools
+## Die Programme und Werkzeuge
 
 <div class="indent" markdown="1">
 
 <h3><i class="icon-text-editor">&nbsp;</i></h3>
 ### Text Editor
 
-[Sublime Text](http://www.sublimetext.com), [Komodo Edit](http://www.activestate.com/komodo-edit), Vim, Emacs, and Gedit are examples of text editors your can use for writing code and editing files.
+Programmieren bedeutet generell Text zu schreiben und dazu benötigt man einen Text Editor.
+
+[Sublime Text](http://www.sublimetext.com), [Komodo Edit](http://www.activestate.com/komodo-edit), Vim, Emacs, and Gedit sind Beispiele für Texteditoren die du verwenden kannst.
 
 <h3><i class="icon-prompt">&nbsp;</i></h3>
-### Terminal (known as Command Prompt on Windows)
-Where you start the rails server and run commands.
+### Das Terminal oder die Konsole (auch bekannt als Kommandozeileneingabe unter Windows)
+
+Hier startest und stopst du deinen Railsserver und führst Befehle/Kommandos aus.
 
 <h3><i class="icon-browser">&nbsp;</i></h3>
 ### Web browser
-(Firefox, Safari, Chrome) for viewing your application.
+
+Z.B Firefox, Safari, Internet Explorer oder Google Chrome dienen zur Betrachtung von Webseiten.
 
 </div>
 
-### Important
+### Wichtiger Hinweis
 
-It is important that you select the instructions specific to your operating system - the commands you need to run on a Windows computer are slightly different to Mac or Linux. If you're having trouble check the Operating System switcher at the bottom of the commands.
+Stelle sicher, dass du den Anweisungen entsprechend für das auf deinem Computer installierte Betriebssystem (Windows, OSX oder Linux) folgst - Kommandos für Windowscomputer heissen häufig anders als ihr OSX oder Linux Gegenstück.
 
-## *1.*Creating the application
+## *1.*Eine Anwendung erstellen
 
-We're going to create a new Rails app called *railsgirls*.
+Wir erstellen eine neue Anwendung/Applikation die wir *railsgirls* nennen.
 
-First, let's open a terminal:
+Zu Beginn öffnen wir die Kommandozeileneingabe:
 
-* Mac OS X: Open Spotlight, type *Terminal* and click the *Terminal* application.
-* Windows: Click Start and look for *Command Prompt*, then click *Command Prompt with Ruby on Rails*.
-* Linux (Ubuntu/Fedora): Search for *Terminal* on the dash and click *Terminal*.
+* Mac Benutzer: Öffne Spotlight (Die Lupe am oberen, rechten Bildschirmrand), tippe *Terminal* und klicke auf das entsprechende Suchergebniss
+* Windowsbenutzer: Klicke auf den Startknopf am unteren, linken Bildschirmrand und klicke auf *Command Prompt with Ruby on Rails*.
+* Linux (Ubuntu/Fedora): Suche nach *Terminal* in der Startleiste und Klick auf Terminal und klicke drauf.
 
 Next, type these commands in the terminal:
 
